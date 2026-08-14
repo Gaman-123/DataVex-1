@@ -4,6 +4,7 @@ import MainLayout from './components/MainLayout';
 import Dashboard from './pages/Dashboard';
 import Candidates from './pages/Candidates';
 import Sessions from './pages/Sessions';
+import InterviewRoom from './pages/InterviewRoom';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/candidates" element={<Candidates />} />
           <Route path="/sessions" element={<Sessions />} />
+          <Route path="/interview" element={<InterviewRoom />} />
         </Routes>
       </MainLayout>
     </Router>
