@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import Candidates from './pages/Candidates';
 import Sessions from './pages/Sessions';
 import InterviewRoom from './pages/InterviewRoom';
+import Analytics from './pages/Analytics';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/candidates" element={<Candidates />} />
           <Route path="/sessions" element={<Sessions />} />
           <Route path="/interview" element={<InterviewRoom />} />
+          <Route path="/analytics" element={<Analytics />} />
         </Routes>
       </MainLayout>
     </Router>

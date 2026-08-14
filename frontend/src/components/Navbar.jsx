@@ -11,6 +11,7 @@ const Navbar = () => {
         <Link to="/" style={{ color: 'var(--text-dark)', fontWeight: '500' }}>Dashboard</Link>
         <Link to="/candidates" style={{ color: 'var(--text-dark)', fontWeight: '500' }}>Candidates</Link>
         <Link to="/sessions" style={{ color: 'var(--text-dark)', fontWeight: '500' }}>Sessions</Link>
+        <Link to="/analytics" style={{ color: 'var(--text-dark)', fontWeight: '500' }}>Analytics</Link>
       </nav>
       <div>
         <div style={{ width: '35px', height: '35px', borderRadius: '50%', backgroundColor: 'var(--primary-color)', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center', fontWeight: 'bold' }}>
