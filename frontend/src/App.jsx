@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainLayout from './components/MainLayout';
+import Dashboard from './pages/Dashboard';
 import './App.css';
 
 function App() {
@@ -8,12 +9,7 @@ function App() {
     <Router>
       <MainLayout>
         <Routes>
-          <Route path="/" element={
-            <div className="card">
-              <h1>Dashboard</h1>
-              <p>Welcome to the admin panel.</p>
-            </div>
-          } />
+          <Route path="/" element={<Dashboard />} />
         </Routes>
       </MainLayout>
     </Router>
